@@ -102,6 +102,29 @@ body {
     color: #e1a730 !important;
 }
 
+/* Botón Únete a Nosotros */
+.navbar-nav .btn-unete {
+    background-color: #e1a730;
+    color: white !important;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 6px;
+    font-weight: 600;
+    margin-left: 12px;
+    transition: all 0.3s ease;
+    text-decoration: none;
+    font-size: 1.1rem;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+
+.navbar-nav .btn-unete:hover {
+    background-color: #d19a20;
+    color: white !important;
+    transform: translateY(-1px);
+}
+
 /* Dropdown Menu Styles */
 .dropdown-menu {
     background: white;
@@ -675,6 +698,18 @@ body {
     height: 220px;
     object-fit: cover;
     display: block;
+}
+
+/* Clase específica para imágenes de pruebas */
+.prueba-image {
+    width: 100%;
+    height: auto;
+    min-height: 220px;
+    max-height: 280px;
+    object-fit: contain;
+    display: block;
+    background-color: #f8f9fa;
+    border-radius: 8px 8px 0 0;
 }
 
 .category-body {
@@ -1445,5 +1480,10 @@ body {
 
     .category-cards {
         grid-template-columns: 1fr;
+    }
+    
+    .prueba-image {
+        min-height: 200px;
+        max-height: 250px;
     }
 }
